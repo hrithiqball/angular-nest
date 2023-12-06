@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ng-todo-app' title`, () => {
+  it(`should have the 'ng17-boilerplate-app' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-todo-app');
+    expect(app.title).toEqual('ng17-boilerplate-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng-todo-app');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, ng17-boilerplate-app'
+    );
   });
 });

@@ -7,8 +7,8 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'ng-todo-app';
+  title = 'ng17-boilerplate-app';
 }

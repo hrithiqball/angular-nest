@@ -1,4 +1,4 @@
-# NgTodoApp
+# Ng17BoilerplateApp by Harith Iqbal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
 
@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Note
+
+This boilerplate is to setup a new Angular 17 project with the following features:
+
+- server side rendering
+- tailwindcss
+- eslint
+- prettier
+- file structure
+- docker
+
+#### Environment
+
+nodejs: `18.17.0`
+
+@angular/cli: `17.0.0`
+
+#### References
+
+- [Angular 17](https://angular.io/guide/ssr)
+- [Prettier & ESLint](https://blog.bitsrc.io/how-ive-set-up-eslint-and-prettier-in-angular-16-and-why-i-did-that-4bfc304284a6)
+- [Tailwindcss](https://tailwindcss.com/docs/guides/angular)
