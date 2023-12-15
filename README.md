@@ -1,50 +1,51 @@
-# Ng17BoilerplateApp by Harith Iqbal
+<p align="center">
+  <a href="https://angular.dev/" target="blank"><img src="https://blog.ninja-squad.com/assets/images/angular_gradient.png" width="200" alt="Angular 17 Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Note
-
-This boilerplate is to setup a new Angular 17 project with the following features:
+<p align="center">This boilerplate is to setup a new full stack Angular and Nest project with the following features:</p>
 
 - server side rendering
 - tailwindcss
 - eslint
 - prettier
+- docker (not implemented yet)
 - file structure
-- docker
 
-#### Environment
+## Angular app
 
-nodejs: `18.17.0`
+```bash
+# development
+ng serve
+# build
+ng build
+# test
+ng test
+# e2e test
+ng e2e
 
-@angular/cli: `17.0.0`
+# generate component
+ng generate component component-name # (ng g c component-name)
 
-#### References
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
-- [Angular 17](https://angular.io/guide/ssr)
-- [Prettier & ESLint](https://blog.bitsrc.io/how-ive-set-up-eslint-and-prettier-in-angular-16-and-why-i-did-that-4bfc304284a6)
-- [Tailwindcss](https://tailwindcss.com/docs/guides/angular)
+## Nest app
+
+```bash
+# development
+$ npm run start
+# watch mode
+$ npm run start:dev
+# production mode
+$ npm run start:prod
+# unit tests
+$ npm run test
+# e2e tests
+$ npm run test:e2e
+# test coverage
+$ npm run test:cov
+```
